@@ -1,0 +1,41 @@
+body{
+    background-image:url('https://www.apptuts.net/wp-content/uploads/2016/12/meteoro-768x432.png');
+    background-size: auto 100vh ;
+    backdrop-filter: brightness(60%);
+    backdrop-filter: blur(2px);
+    
+    font-family: Arial bold;
+    height: 100vh; 
+  }
+  
+  .menu {
+    background-color:white; 
+  }
+  
+  .menu ul{
+    display: flex;
+    justify-content: space-around ;
+  }
+  
+  .menu li {
+    list-style: none; 
+  }
+  
+  a {
+    color: gray;
+    text-decoration: none;
+  }
+  
+  a:hover {
+     text-decoration: underline ; 
+  }
+  
+  .site-subtitle,
+  .site-title {
+    color:whitesmoke;
+    text-align: center;
+    }
+  
+  .site-subtitle{
+   font-style: italic;
+  }
